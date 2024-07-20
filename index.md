@@ -5,7 +5,7 @@ author = "Justin Napolitano"
 tags = ["tutorials", "gcp","bash"]
 images = ["images/feature-image.png"]
 categories = ["projects"]
-date = "2024-07-14T014:27:45-06:00"
+date = "2024-07-14 22:36:34.376 -0500" 
 +++
 
 
