@@ -1,6 +1,6 @@
 # Cloud Run Job Deployment Script
 
-This repository provides a Bash script to automate the building, deployment, and execution of a Cloud Run Job on Google Cloud Platform (GCP). It leverages Google Cloud Build to containerize a Python application and deploy it as a Cloud Run Job with minimal manual configuration.
+This repository provides a Bash script to automate the building, deployment, and execution of a Cloud Run Job on Google Cloud Platform (GCP). It uses Google Cloud Build to containerize a Python application and deploy it as a Cloud Run Job with minimal manual setup.
 
 ## Features
 
@@ -67,18 +67,19 @@ Example:
 create_deploy_cloud_run_job/
 ├── create_deploy_cloud_run.sh   # Main deployment script
 ├── Dockerfile                   # Dockerfile for Python application (assumed)
-├── README.md                    # This README
+├── README.md                    # This file
 ├── index.md                    # Documentation/tutorial
-└── keys/                       # Directory for service account key (not included)
 ```
-
-- The script dynamically generates `cloudbuild.yaml` during execution.
 
 ## Future Work / Roadmap
 
+- Add support for customizable deployment regions and service accounts via script arguments
+- Integrate automated tests for the deployment script
 - Add support for environment variables and secrets management
-- Parameterize region and service account via CLI arguments
-- Add validation and error handling for missing files and permissions
-- Support for different programming languages beyond Python
-- Integration tests for deployment pipeline
-- Documentation enhancements with usage examples and troubleshooting
+- Provide support for other container registries beyond Google Container Registry
+- Enhance error handling and logging within the script
+- Include example Python application and Dockerfile for quick start
+
+---
+
+*Note: This README assumes the presence of a Dockerfile and Python application in the repository root, as referenced in the documentation.*
