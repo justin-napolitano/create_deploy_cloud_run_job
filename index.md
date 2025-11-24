@@ -22,6 +22,12 @@ seoSecondaryKeywords:
   - docker image deployment
   - gcp automation
 seoOptimized: true
+topicFamily: automation
+topicFamilyConfidence: 1
+topicFamilyNotes: >-
+  The post details a Bash script that automates building, pushing, deploying, and executing Google
+  Cloud Run jobs using Google Cloud Build and Container Registry. This matches the 'Automation'
+  family description perfectly, as it focuses on automating deployment workflows.
 ---
 
 # Technical Overview: Automating Cloud Run Job Deployment with Bash and Google Cloud Build
@@ -86,3 +92,4 @@ To use the script, a developer clones the repository, ensures their Python appli
 ## Conclusion
 
 This project offers a minimal yet effective automation tool for deploying Cloud Run Jobs on GCP. It leverages native Google Cloud tools and standard Bash scripting to reduce manual deployment steps, enabling faster iteration and consistent deployments. The approach is practical and extensible for more complex deployment pipelines.
+
