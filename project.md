@@ -7,8 +7,8 @@ githubUrl: https://github.com/justin-napolitano/create_deploy_cloud_run_job
 generatedAt: '2025-11-24T21:34:22.298Z'
 source: github-auto
 summary: >-
-  This guide covers automating the deployment of a Cloud Run Job on GCP using a
-  Bash script and Google Cloud Build.
+  This guide covers automating the deployment of a Cloud Run Job on GCP using a Bash script and
+  Google Cloud Build.
 tags:
   - bash
   - google cloud run
@@ -25,8 +25,8 @@ seoSecondaryKeywords:
   - cloud build yaml
   - service account authentication
 seoOptimized: true
-topicFamily: null
-topicFamilyConfidence: null
+topicFamily: automation
+topicFamilyConfidence: 0.9
 kind: project
 entryLayout: project
 showInProjects: true
@@ -118,3 +118,4 @@ create_deploy_cloud_run_job/
 ---
 
 *Note: This README assumes the presence of a Dockerfile and Python application in the repository root, as referenced in the documentation.*
+
