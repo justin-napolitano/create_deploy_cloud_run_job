@@ -1,13 +1,13 @@
 ---
 slug: github-create-deploy-cloud-run-job
-title: Automating Google Cloud Run Job Deployment with Bash and Cloud Build
+title: Automate Cloud Run Job Deployment with Bash and Google Cloud Build
 repo: justin-napolitano/create_deploy_cloud_run_job
 githubUrl: https://github.com/justin-napolitano/create_deploy_cloud_run_job
 generatedAt: '2025-11-23T08:47:04.580209Z'
 source: github-auto
 summary: >-
-  A Bash script automates building, pushing, deploying, and executing Google Cloud Run jobs using
-  Cloud Build and Container Registry.
+  This guide details a Bash script to automate the deployment of Cloud Run jobs,
+  streamlining the process and reducing manual errors.
 tags:
   - google-cloud-run
   - cloud-build
@@ -15,19 +15,24 @@ tags:
   - deployment-automation
   - docker
   - gcp
-seoPrimaryKeyword: google cloud run job deployment
+  - automation
+seoPrimaryKeyword: automate cloud run job deployment
 seoSecondaryKeywords:
-  - bash automation
-  - cloud build
+  - bash script cloud run
+  - google cloud run automation
   - docker image deployment
-  - gcp automation
+  - cloud build pipeline
+  - gcp job execution
 seoOptimized: true
 topicFamily: automation
 topicFamilyConfidence: 1
 topicFamilyNotes: >-
-  The post details a Bash script that automates building, pushing, deploying, and executing Google
-  Cloud Run jobs using Google Cloud Build and Container Registry. This matches the 'Automation'
-  family description perfectly, as it focuses on automating deployment workflows.
+  The post details a Bash script that automates building, pushing, deploying,
+  and executing Google Cloud Run jobs using Google Cloud Build and Container
+  Registry. This matches the 'Automation' family description perfectly, as it
+  focuses on automating deployment workflows.
+kind: project
+id: github-create-deploy-cloud-run-job
 ---
 
 # Technical Overview: Automating Cloud Run Job Deployment with Bash and Google Cloud Build
